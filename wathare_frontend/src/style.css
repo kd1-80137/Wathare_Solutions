@@ -1,0 +1,55 @@
+.container {
+    position: relative; /* Ensure the container is positioned */
+    width: 100%; /* Set the width of the container */
+    height: 100vh; /* Set the height of the container (or adjust as needed) */
+  }
+  
+  .right-corner-text {
+    position: fixed; /* Position the text absolutely within the container */
+    top: -130px; /* Align text to the top of the container */
+    right: 100px; /* Align text to the right side of the container */
+    margin: 200px; /* Adjust margin as needed */
+  }
+  .right-corner-text1 {
+    background-color: lightblue;
+    position:fixed ; /* Position the text absolutely within the container */
+    top: -130px; /* Align text to the top of the container */
+    right: 50px; /* Align text to the right side of the container */
+    margin: 200px; /* Adjust margin as needed */
+  }
+  .right-corner-text2 {
+    background-color: grey;
+    position:fixed ; /* Position the text absolutely within the container */
+    top: -130px; /* Align text to the top of the container */
+    right: -10px; /* Align text to the right side of the container */
+    margin: 200px; /* Adjust margin as needed */
+  }
+
+  .list{
+    list-style: none;display: flex; justify-content: start; border: 1px solid black;
+  }
+  
+  .list1{
+    width:1px; background-color: red; height: 200px
+  }
+  .list2{
+    width:1px; background-color: yellow; height: 200px;
+  }
+  .list3{
+    width:1px; background-color: green; height: 200px;
+  }
+  .st{
+    color: white;
+    background-color: yellow;
+  }
+  .eL{
+    color: white;
+    width: 0.1px;
+  }
+  .eM{
+    color: white;
+    width: 0.1px;
+  }
+  .df{
+    display: flex;
+  }
